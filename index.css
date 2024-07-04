@@ -1,0 +1,114 @@
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+@import url("https://fonts.cdnfonts.com/css/verdana");
+
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Verdana", sans-serif;
+  color: #eeeeee;
+  line-height: 35.9px;
+}
+p {
+  font-size: 90px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  border-color: #9aabd8;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 18px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #9aabd8;
+}
+
+.container {
+  background-color: #1b244a; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  width: 100%; /* Adjust width as needed */
+  max-width: 575px; /* Ensure it doesn’t get too wide */
+  max-height: 385px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* HOME */
+
+.container__home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home__headline {
+  margin: 0;
+  position: relative;
+  bottom: -25px;
+}
+
+.home__scoreboard {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: #080001;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__buttons {
+  position: relative;
+  top: -25px;
+}
+
+/* GUEST */
+
+.container__guest {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.guest__headline {
+  margin: 0;
+  position: relative;
+  bottom: -25px;
+}
+
+.guest__scoreboard {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: #080001;
+  justify-content: center;
+  align-items: center;
+}
+
+.guest__buttons {
+  position: relative;
+  top: -25px;
+}
